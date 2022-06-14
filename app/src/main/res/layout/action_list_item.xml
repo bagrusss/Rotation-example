@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="56dp"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp">
+
+    <ImageView
+        android:id="@+id/action_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/rounded_corners_bg"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="4dp"
+        android:textSize="25sp"
+        app:srcCompat="@drawable/ic_delete_28"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/smile_view"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners_bg"
+        android:gravity="center"
+        android:textSize="30sp"
+        tools:text="😺" />
+
+</FrameLayout>

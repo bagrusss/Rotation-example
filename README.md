@@ -1,0 +1,1 @@
+# Components for rotation with locked in portrait orientation Activity 

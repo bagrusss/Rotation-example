@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rotation example</string>
+
+    <string name="top_text">Text for top position</string>
+    <string name="top_long_text">Long long text for top position</string>
+    <string name="bottom_text">Text for bottom position</string>
+</resources>
